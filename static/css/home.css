@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .content{
+    width: 80%;
+    margin: 0 auto;
+    background: dodgerblue;
+    position: relative;
+}
+
+.line{
+    border: 10px solid black;
+}
+
+.fam_first_name__item.hook::before{
+    content: '';
+    border: 1px solid black;
+}
+
+.fam_first_name__item.hook::after{
+    content: '';
+    border: 5px solid black;
+} */
+
+#family-tree {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.person {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.person img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.line {
+    stroke: black;
+    stroke-width: 2;
+}
+
